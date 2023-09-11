@@ -1,0 +1,79 @@
+/* 10. Aplica estilos CSS que den apariencia a tu web */
+
+html {
+    background-color: rgba(207, 135, 0, 0.603);
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+body {
+    background-color: bisque;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-right: 5%;
+    padding-left: 5%;
+    border-width:4px;
+    border-style:groove;
+    border-color:dark;
+    text-align: justify;
+    border-top: none;
+    border-bottom: none;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-style: solid;
+    border-color: black;
+}
+
+h1 {
+    font-family: "Trirong", serif;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 15px;
+    padding-bottom: 0px;
+}
+
+.indice {
+    padding-left: auto;
+    padding-right: auto;
+    display: block;
+}
+
+.img-container {
+    text-align: center;
+}
+
+p {
+    font-family: "Garamond", Times, serif;
+}
+
+h2 {
+    font-family: "Lucida Handwriting", Cursive;
+}
+
+a.enlace:link, a.enlace2:link, a:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(255, 159, 41);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+  
+a.enlace:hover, a.enlace2:hover, a:active {
+    background-color: #f8d385;
+    color: white;
+}
+
+a.enlace2 {
+    margin-bottom: 20px;
+}
